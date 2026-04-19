@@ -1,25 +1,92 @@
-# Project-Xarc-Revived-XarcV2-
-Project Xarc Revived (PXRV2) is the revival of Project Xarc which ran from mid 2025 to december 2025 and was originally a LLM (The old source code is permanently gone now or at least i think so, it could be on my old desktop) but with Xarcs return there is a reason, i need to build a IT portfolio and this is perfect.
-#This first bit is fully human written everything after this is AI written but with real human details the reason for using AI is because its currently 04:40AM and i dont want to write down legal text q: #
+# XARCv2 (Project Xarc Revived)
 
-# Project-Xarc-Revived-(PXRV2)
-Project Xarc Revived is the 2026 spiritual successor to the original Project Xarc (active mid-2025 – Dec 2025). Originally conceptualised as an LLM project, PXRV2 serves as a primary entry in my IT portfolio to demonstrate system architecture, high-performance programming, and database management.
-Technical Specifications
-Back-end & Front-end: Rust (managed via Cargo)
-Machine Learning: Python (weight training and processing)
-Database: SurrealDB (storage and retrieval of trained weights)
-Development Environment: Visual Studio Code on Windows 11 Home
-Project Context
-This revival represents a complete rebuild of the original Xarc framework. It is designed to showcase professional-grade code quality and the integration of modern, memory-safe languages with scalable database solutions.
-Proprietary Notice
-[!IMPORTANT]
-This project is for portfolio evaluation only.
-I retain all rights to this source code. While this repository is public for visibility to recruiters and potential employers, no license is granted for the copying, modification, or redistribution of this work.
-Prohibited Use:
-Commercial or for-profit utilization.
-Claiming this work as your own or using it in a separate portfolio.
-Redistribution or derivative works in any form.
-Professional Contact
-Justin Wiltshire
+**Status: 🚧 Just restarted — nothing built yet. Design phase.**
+
+---
+
+## Origin
+
+XARCv2 is a complete rebuild of my original XARC project (mid-2025 to December 2025). The original was an LLM experiment. That source code is permanently gone.
+
+**Why restart?**  
+I need a strong IT portfolio for my long-term goal: engineering roles in Shenzhen (2030). This project will be my primary showcase.
+
+---
+
+## What This Project Will Become
+
+A **physical sorting system** using computer vision + lightweight AI, running on RISC-V hardware (VisionFive 2).
+
+**Planned functionality:**
+- Camera captures an object
+- Vision pipeline processes the image
+- Lightweight classifier decides destination
+- Servo motors physically sort the object
+
+---
+
+## Planned Tech Stack
+
+| Component | Technology | Why |
+|-----------|------------|-----|
+| Core logic | Rust (no_std) | Memory safety, embedded target |
+| AI training | Python (scikit-learn) | Fast prototyping |
+| Inference | Rust (pure, no Python) | Runs on RISC-V |
+| Database | SurrealDB | Weight storage, logging |
+| Target hardware | StarFive VisionFive 2 (RISC-V) | Open architecture, full Linux |
+| Development host | Windows 11 + WSL2 (Debian 12) | Linux toolchain on Windows |
+
+---
+
+## Current Status (April 2026)
+
+| Component | Status |
+|-----------|--------|
+| Project planning | 🔄 In progress |
+| Rust environment setup | ⏳ Not started |
+| Python training pipeline | ⏳ Not started |
+| Vision pipeline | ⏳ Not started |
+| RISC-V cross-compilation | ⏳ Not started |
+| Hardware purchasing | ⏳ Not started (awaiting digital banking) |
+
+**Nothing is built yet. This README will update as progress happens.**
+
+---
+
+## Timeline (Estimated)
+
+| Milestone | Target |
+|-----------|--------|
+| Rust basics complete | June 2026 |
+| Python training script (dummy data) | July 2026 |
+| Rust JSON parser for weights | August 2026 |
+| First working inference (x86_64) | September 2026 |
+| Cross-compile to RISC-V (QEMU test) | October 2026 |
+| Purchase VisionFive 2 board | Late 2026 |
+| Hardware demo (camera + servo) | 2027 |
+
+---
+
+## Project Structure (Planned)
+xarcv2/
+├── src/
+│ ├── main.rs # Entry point, GPIO init
+│ ├── classifier.rs # AI inference engine
+│ ├── servo.rs # Motor control
+│ └── db.rs # SurrealDB logging
+├── training/
+│ ├── train.py # Python training script
+│ └── weights.json # Exported weights
+├── Cargo.toml
+├── README.md
+└── LICENSE
+
+Contact
+Justin Wiltshire (O7NGuy)
+
 Website: torxen.co.uk
-LinkedIn: linkedin.com
+
+GitHub: github.com/O7NGuy
+
+Acknowledgements
+Built independently as part of my IT portfolio. Targeting Shenzhen tech sector (2030).
