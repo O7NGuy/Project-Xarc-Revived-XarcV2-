@@ -1,6 +1,6 @@
 # Project-Xarc-Revived-XarcV2-
 Project Xarc Revived (PXRV2) is the revival of Project Xarc which ran from mid 2025 to december 2025 and was originally a LLM (The old source code is permanently gone now or at least i think so, it could be on my old desktop) but with Xarcs return there is a reason, i need to build a IT portfolio and this is perfect.
-#This first bit is fully human written everything after this is AI written but with real human details the reason for using AI is because its currently 04:40AM and i dont want to write down legal text ~_~ #
+#This first bit is fully human written everything after this is AI written but with real human details the reason for using AI is because its currently 04:40AM and i dont want to write down legal text q: #
 
 # Project-Xarc-Revived-(PXRV2)
 Project Xarc Revived is the 2026 spiritual successor to the original Project Xarc (active mid-2025 – Dec 2025). Originally conceptualised as an LLM project, PXRV2 serves as a primary entry in my IT portfolio to demonstrate system architecture, high-performance programming, and database management.
