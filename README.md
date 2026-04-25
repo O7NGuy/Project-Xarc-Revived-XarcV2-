@@ -1,92 +1,11 @@
-# XARCv2 (Project Xarc Revived)
+## Project Xarc-V2 ##
+Project Xarc-V2 is the rebirth the original Project XARC which ran from mid 2025 to december 2025 and was cancelled as so but the knowledge learnt remains in memory while the old source code for Xarc is gone!
 
-**Status: 🚧 Just restarted — nothing built yet. Design phase.**
+## What XARC Was Pre Cancellation ##
+Xarc in its last phase before being cancelled was in essence a AI Language and Image generation model it did not do well with the image side (too little data) and the story generation function was similar but did work within limitation.
 
----
+## The Rebirth of XARC In April 2026 ##
+Xarc is being restarted fresh hence "Xarc-V2" instead of "XARC" and it wont be focused on Languages or Image generation like the past project, instead Xarc-V2 will be on goal based progression both for my learning and for my portfolio pieces and the end Goal will likely be getting Xarc to do stuff physically instead of solely digitally.
 
-## Origin
-
-XARCv2 is a complete rebuild of my original XARC project (mid-2025 to December 2025). The original was an LLM experiment. That source code is permanently gone.
-
-**Why restart?**  
-I need a strong IT portfolio for my long-term goal: engineering roles in Shenzhen (2030). This project will be my primary showcase.
-
----
-
-## What This Project Will Become
-
-A **physical sorting system** using computer vision + lightweight AI, running on RISC-V hardware (VisionFive 2).
-
-**Planned functionality:**
-- Camera captures an object
-- Vision pipeline processes the image
-- Lightweight classifier decides destination
-- Servo motors physically sort the object
-
----
-
-## Planned Tech Stack
-
-| Component | Technology | Why |
-|-----------|------------|-----|
-| Core logic | Rust (no_std) | Memory safety, embedded target |
-| AI training | Python (scikit-learn) | Fast prototyping |
-| Inference | Rust (pure, no Python) | Runs on RISC-V |
-| Database | SurrealDB | Weight storage, logging |
-| Target hardware | StarFive VisionFive 2 (RISC-V) | Open architecture, full Linux |
-| Development host | Windows 11 + WSL2 (Debian 12) | Linux toolchain on Windows |
-
----
-
-## Current Status (April 2026)
-
-| Component | Status |
-|-----------|--------|
-| Project planning | 🔄 In progress |
-| Rust environment setup | ⏳ Not started |
-| Python training pipeline | ⏳ Not started |
-| Vision pipeline | ⏳ Not started |
-| RISC-V cross-compilation | ⏳ Not started |
-| Hardware purchasing | ⏳ Not started (awaiting digital banking) |
-
-**Nothing is built yet. This README will update as progress happens.**
-
----
-
-## Timeline (Estimated)
-
-| Milestone | Target |
-|-----------|--------|
-| Rust basics complete | June 2026 |
-| Python training script (dummy data) | July 2026 |
-| Rust JSON parser for weights | August 2026 |
-| First working inference (x86_64) | September 2026 |
-| Cross-compile to RISC-V (QEMU test) | October 2026 |
-| Purchase VisionFive 2 board | Late 2026 |
-| Hardware demo (camera + servo) | 2027 |
-
----
-
-## Project Structure (Planned)
-xarcv2/
-├── src/
-│ ├── main.rs # Entry point, GPIO init
-│ ├── classifier.rs # AI inference engine
-│ ├── servo.rs # Motor control
-│ └── db.rs # SurrealDB logging
-├── training/
-│ ├── train.py # Python training script
-│ └── weights.json # Exported weights
-├── Cargo.toml
-├── README.md
-└── LICENSE
-
-Contact
-Justin Wiltshire (O7NGuy)
-
-Website: torxen.co.uk
-
-GitHub: github.com/O7NGuy
-
-Acknowledgements
-Built independently as part of my IT portfolio. Targeting Shenzhen tech sector (2030).
+## Why Could Xarc Be Useful beyond my portfolio ##
+As a polished AI system written in rust initially non embedded later embedded it teaches me great skills for the field and with these practical skills i could be applied on many AI focused projects not specifically specialised in Language or Images and when tied in with my other Portfolio work (currently in progress as Xarc-V2 is the first project i am starting with as a flagship portfolio piece) i could show intergration potential between systems
